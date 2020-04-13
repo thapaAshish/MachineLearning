@@ -55,6 +55,9 @@ print(X_opt.dtype)
 
 regressor_OLS = sm.OLS(Y,X_opt).fit()
 print(regressor_OLS.summary())
+#x1 is the most signigicant
+
+
 
 
 
